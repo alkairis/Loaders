@@ -1,0 +1,19 @@
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loading{
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    animation: load 1s linear infinite alternate;
+}
+
+@keyframes load {
+    to{
+        opacity: 0;
+    }
+}
